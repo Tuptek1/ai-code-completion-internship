@@ -1,0 +1,215 @@
+Example 1:
+Prefix (Before Cursor):
+% 2 == 0
+
+def is_odd(n):
+    return n % 2 != 0
+
+de
+Middle (Actual Missing Code):
+f find_max(lst):
+    return max(lst)
+
+def find_min(lst):
+    return min(lst)
+
+def su
+Tiny Starcoder Generated Completion:
+% 2 == 0
+
+def is_odd(n):
+    return n % 2 != 0
+
+def find_max(lst):
+    return max(lst)
+
+def find_min(lst):
+    return min(lst)
+
+def suicide(n):
+    if n == 
+Suffix (After Cursor):
+m_list(lst):
+    return sum(lst)
+
+def avg_list(lst
+
+Exact Match: 1
+CHRF Score: 87.1639
+ROUGE F-Score: 0.5217
+BLEU Score: 0.4403
+==================================================
+Example 2:
+Prefix (Before Cursor):
+exp):
+    return base ** exp
+
+def sort_list(lst):
+
+Middle (Actual Missing Code):
+    return sorted(lst)
+
+def remove_duplicates(lst):
+    retu
+Tiny Starcoder Generated Completion:
+exp):
+    return base ** exp
+
+def sort_list(lst):
+    return sorted(lst)
+
+def remove_duplicates(lst):
+    retu = []
+    for i in lst:
+        if
+Suffix (After Cursor):
+rn list(set(lst))
+
+def capitalize_string(s):
+    r
+
+Exact Match: 1
+CHRF Score: 80.7518
+ROUGE F-Score: 0.4545
+BLEU Score: 0.3118
+==================================================
+Example 3:
+Prefix (Before Cursor):
+ef flatten_list(lst):
+    return [item for sublist
+Middle (Actual Missing Code):
+ in lst for item in sublist]
+
+
+
+
+
+
+
+
+
+Tiny Starcoder Generated Completion:
+ef flatten_list(lst):
+    return [item for sublist in lst for item in sublist]
+
+
+
+
+
+
+
+
+
+Suffix (After Cursor):
+
+
+Exact Match: 1
+CHRF Score: 70.3455
+ROUGE F-Score: 0.6667
+BLEU Score: 0.3270
+==================================================
+Example 4:
+Prefix (Before Cursor):
+def power(base, exp):
+    return base ** exp
+
+def 
+Middle (Actual Missing Code):
+sort_list(lst):
+    return sorted(lst)
+
+def remove_duplicates(lst):
+    return list(se
+Tiny Starcoder Generated Completion:
+def power(base, exp):
+    return base ** exp
+
+def sort_list(lst):
+    return sorted(lst)
+
+def remove_duplicates(lst):
+    return list(select(lst))
+
+def remove_
+Suffix (After Cursor):
+t(lst))
+
+def capitalize_string(s):
+    return s.ca
+
+Exact Match: 1
+CHRF Score: 85.7280
+ROUGE F-Score: 0.5556
+BLEU Score: 0.4538
+==================================================
+Example 5:
+Prefix (Before Cursor):
+
+def multiply(a, b):
+    return a * b
+
+def divide(
+Middle (Actual Missing Code):
+a, b):
+    if b == 0:
+        raise ValueError("Cannot divide by zero!")
+    return a / b
+
+def
+Tiny Starcoder Generated Completion:
+
+def multiply(a, b):
+    return a * b
+
+def divide(a, b):
+    if b == 0:
+        raise ValueError("Cannot divide by zero!")
+    return a / b
+
+def power(a, b):
+    return a **
+Suffix (After Cursor):
+ reverse_string(s):
+    return s[::-1]
+
+def is_eve
+
+Exact Match: 1
+CHRF Score: 84.1528
+ROUGE F-Score: 0.8235
+BLEU Score: 0.4948
+==================================================
+Example 6:
+Prefix (Before Cursor):
+a, b):
+    return a - b
+
+def multiply(a, b):
+    r
+Middle (Actual Missing Code):
+eturn a * b
+
+def divide(a, b):
+    if b == 0:
+        ra
+Tiny Starcoder Generated Completion:
+a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
+def divide(a, b):
+    if b == 0:
+        ra = 0
+    else:
+        ra = a
+Suffix (After Cursor):
+ise ValueError("Cannot divide by zero!")
+    retur
+
+Exact Match: 1
+CHRF Score: 77.4040
+ROUGE F-Score: 0.7143
+BLEU Score: 0.3819
+==================================================
