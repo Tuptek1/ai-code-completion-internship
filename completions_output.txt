@@ -1,21 +1,19 @@
 Example 1:
 Prefix (Before Cursor):
-% 2 == 0
+ == 0
 
 def is_odd(n):
     return n % 2 != 0
 
-de
+def f
 Middle (Actual Missing Code):
-f find_max(lst):
+ind_max(lst):
     return max(lst)
 
 def find_min(lst):
-    return min(lst)
-
-def su
+    return min
 Tiny Starcoder Generated Completion:
-% 2 == 0
+ == 0
 
 def is_odd(n):
     return n % 2 != 0
@@ -26,59 +24,181 @@ def find_max(lst):
 def find_min(lst):
     return min(lst)
 
-def suicide(n):
-    if n == 
+def find_sum(
 Suffix (After Cursor):
-m_list(lst):
+(lst)
+
+def sum_list(lst):
     return sum(lst)
 
-def avg_list(lst
-
+def
+Manual Review:
+The code is completed very well, adding find_sum was unnecessary, the metrics are quite accurate
 Exact Match: 1
-CHRF Score: 87.1639
-ROUGE F-Score: 0.5217
-BLEU Score: 0.4403
+CHRF Score: 83.7400
+ROUGE F-Score: 0.4000
+BLEU Score: 0.4017
 ==================================================
 Example 2:
 Prefix (Before Cursor):
-exp):
-    return base ** exp
+:-1]
 
-def sort_list(lst):
+def is_even(n):
+    return n % 2 == 0
 
+def i
 Middle (Actual Missing Code):
-    return sorted(lst)
+s_odd(n):
+    return n % 2 != 0
 
-def remove_duplicates(lst):
-    retu
+def find_max(lst):
+    return max(lst)
+
+def find_min(lst):
 Tiny Starcoder Generated Completion:
-exp):
-    return base ** exp
+:-1]
 
-def sort_list(lst):
-    return sorted(lst)
+def is_even(n):
+    return n % 2 == 0
 
-def remove_duplicates(lst):
-    retu = []
-    for i in lst:
-        if
+def is_odd(n):
+    return n % 2 != 0
+
+def find_max(lst):
+    return max(lst)
+
+def find_min(lst):
+    return min(lst)
+
+def find
 Suffix (After Cursor):
-rn list(set(lst))
 
-def capitalize_string(s):
-    r
+    return min(lst)
 
+def sum_list(lst):
+    retur
+
+Manual Review:
+The code is completed very well, there is no mistake, the metrics are very accurate
 Exact Match: 1
-CHRF Score: 80.7518
-ROUGE F-Score: 0.4545
-BLEU Score: 0.3118
+CHRF Score: 85.8021
+ROUGE F-Score: 0.7407
+BLEU Score: 0.5244
 ==================================================
 Example 3:
 Prefix (Before Cursor):
-ef flatten_list(lst):
-    return [item for sublist
+odd(n):
+    return n % 2 != 0
+
+def find_max(lst):
+
 Middle (Actual Missing Code):
- in lst for item in sublist]
+    return max(lst)
+
+def find_min(lst):
+    return min(lst)
+
+def sum_list(lst):
+    return sum(lst
+Tiny Starcoder Generated Completion:
+odd(n):
+    return n % 2 != 0
+
+def find_max(lst):
+    return max(lst)
+
+def find_min(lst):
+    return min(lst)
+
+def sum_list(lst):
+    return sum(lst)
+
+def sum_list_2(
+Suffix (After Cursor):
+)
+
+def avg_list(lst):
+    if len(lst) == 0:
+      
+Manual Review:
+The code is completed very well, adding sum_list_2 was unnecessary this happened becuase the completion model
+was given too much tokens, the metrics are quite accurate
+Exact Match: 1
+CHRF Score: 87.6627
+ROUGE F-Score: 0.5455
+BLEU Score: 0.5265
+==================================================
+Example 4:
+Prefix (Before Cursor):
+def add(a, b)
+Middle (Actual Missing Code):
+:
+    return a + b
+
+def subtract(a, b):
+    return a
+Tiny Starcoder Generated Completion:
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b
+Suffix (After Cursor):
+ - b
+
+def multiply(a, b):
+    return a * b
+
+def di
+
+Manual Review:
+The code is completed very well, the token would require a little more tokens to fully finish the multiply
+function, the metric are very accurate
+Exact Match: 1
+CHRF Score: 84.8857
+ROUGE F-Score: 0.7778
+BLEU Score: 0.4724
+==================================================
+Example 5:
+Prefix (Before Cursor):
+ return base ** exp
+
+def sort_list(lst):
+    retur
+Middle (Actual Missing Code):
+n sorted(lst)
+
+def remove_duplicates(lst):
+    
+Tiny Starcoder Generated Completion:
+ return base ** exp
+
+def sort_list(lst):
+    return sorted(lst)
+
+def remove_duplicates(lst):
+     return [x for x in lst if x not
+Suffix (After Cursor):
+return list(set(lst))
+
+def capitalize_string(s):
+ 
+Manual Review:
+The code is completed very well, the model would need a little bit more tokens to fully complete the 
+remove_duplicates function, the ROUGE and BLEU metrics aren't very accurate
+Exact Match: 1
+CHRF Score: 74.4073
+ROUGE F-Score: 0.3158
+BLEU Score: 0.2764
+==================================================
+Example 6:
+Prefix (Before Cursor):
+):
+    return [item for sublist in lst for item in
+Middle (Actual Missing Code):
+ sublist]
 
 
 
@@ -89,7 +209,7 @@ Middle (Actual Missing Code):
 
 
 Tiny Starcoder Generated Completion:
-ef flatten_list(lst):
+):
     return [item for sublist in lst for item in sublist]
 
 
@@ -102,25 +222,190 @@ ef flatten_list(lst):
 
 Suffix (After Cursor):
 
-
+Manual Review:
+The splitting didn't happen correctly as it pasted blank spaces at the end of the file
 Exact Match: 1
-CHRF Score: 70.3455
-ROUGE F-Score: 0.6667
-BLEU Score: 0.3270
+CHRF Score: 42.3285
+ROUGE F-Score: 0.2000
+BLEU Score: 0.0000
 ==================================================
-Example 4:
+Example 7:
 Prefix (Before Cursor):
+lst):
+    return min(lst)
+
+def sum_list(lst):
+    
+Middle (Actual Missing Code):
+return sum(lst)
+
+def avg_list(lst):
+    if len(lst) =
+Tiny Starcoder Generated Completion:
+lst):
+    return min(lst)
+
+def sum_list(lst):
+    return sum(lst)
+
+def avg_list(lst):
+    if len(lst) == 0:
+        return 0
+    return
+Suffix (After Cursor):
+= 0:
+        return 0
+    return sum(lst) / len(ls
+
+Manual Review:
+THe code was completed very well, model would need more tokens to fully finish the function but it's correct,
+the models match the completion 
+Exact Match: 1
+CHRF Score: 79.1450
+ROUGE F-Score: 0.6316
+BLEU Score: 0.4193
+==================================================
+Example 8:
+Prefix (Before Cursor):
+e):
+    return lst.count(value)
+
+def square(n):
+  
+Middle (Actual Missing Code):
+  return n ** 2
+
+def cube(n):
+    return n ** 3
+
+def power(base, exp):
+    return base ** exp
+Tiny Starcoder Generated Completion:
+e):
+    return lst.count(value)
+
+def square(n):
+    return n ** 2
+
+def cube(n):
+    return n ** 3
+
 def power(base, exp):
     return base ** exp
 
-def 
-Middle (Actual Missing Code):
-sort_list(lst):
+def power_of(base, exp
+Suffix (After Cursor):
+
+
+def sort_list(lst):
     return sorted(lst)
 
-def remove_duplicates(lst):
-    return list(se
+def 
+
+Manual Review:
+The code is completed very well, the model added one unnecessary functon at the end, the metrics are accurate
+Exact Match: 1
+CHRF Score: 84.3404
+ROUGE F-Score: 0.8148
+BLEU Score: 0.5786
+==================================================
+Example 9:
+Prefix (Before Cursor):
+d(n):
+    return n % 2 != 0
+
+def find_max(lst):
+  
+Middle (Actual Missing Code):
+  return max(lst)
+
+def find_min(lst):
+    return min(lst)
+
+def su
 Tiny Starcoder Generated Completion:
+d(n):
+    return n % 2 != 0
+
+def find_max(lst):
+    return max(lst)
+
+def find_min(lst):
+    return min(lst)
+
+def sufix(n):
+    return str(n)
+Suffix (After Cursor):
+m_list(lst):
+    return sum(lst)
+
+def avg_list(lst
+
+Manual Review:
+The code is completed very well, the model misinterpreted name of one function and completed it incorrectly
+so the ROUGE and BLEU metrics arent that much accurate
+Exact Match: 1
+CHRF Score: 81.7465
+ROUGE F-Score: 0.5000
+BLEU Score: 0.3555
+==================================================
+Example 10:
+Prefix (Before Cursor):
+lueError("Cannot divide by zero!")
+    return a / 
+Middle (Actual Missing Code):
+b
+
+def reverse_string(s):
+    return s[::-1]
+
+def is_eve
+Tiny Starcoder Generated Completion:
+lueError("Cannot divide by zero!")
+    return a / b
+
+def reverse_string(s):
+    return s[::-1]
+
+def is_eve(s):
+    return s.isalpha()
+Suffix (After Cursor):
+n(n):
+    return n % 2 == 0
+
+def is_odd(n):
+    re
+
+Manual Review:
+Two first functions were completed correctly but the model misinterpreted the last functon as it 
+wasn't provided with the full name, the ROUGE and BLEU metrics are somewhat accurate
+Exact Match: 1
+CHRF Score: 77.5580
+ROUGE F-Score: 0.5000
+BLEU Score: 0.3792
+==================================================
+Example 11:
+Prefix (Before Cursor):
+** 2
+
+def cube(n):
+    return n ** 3
+
+def power(ba
+Middle (Actual Missing Code):
+se, exp):
+    return base ** exp
+
+def sort_list(lst):
+    return sorted(lst)
+
+def remove_duplicates(
+Tiny Starcoder Generated Completion:
+** 2
+
+def cube(n):
+    return n ** 3
+
 def power(base, exp):
     return base ** exp
 
@@ -128,88 +413,348 @@ def sort_list(lst):
     return sorted(lst)
 
 def remove_duplicates(lst):
-    return list(select(lst))
-
-def remove_
+    return [x for x in lst
 Suffix (After Cursor):
-t(lst))
+lst):
+    return list(set(lst))
 
-def capitalize_string(s):
-    return s.ca
+def capitalize_st
 
+Manual Review:
+The code was completed perfectly, the model could get more tokens to complete the last functon,
+the metrics are accurate
 Exact Match: 1
-CHRF Score: 85.7280
-ROUGE F-Score: 0.5556
-BLEU Score: 0.4538
+CHRF Score: 87.0275
+ROUGE F-Score: 0.5517
+BLEU Score: 0.4339
 ==================================================
-Example 5:
+Example 12:
 Prefix (Before Cursor):
+ subtract(a, b):
+    return a - b
+
+def multiply(a,
+Middle (Actual Missing Code):
+ b):
+    return a * b
+
+def divide(a, b):
+    if b == 0:
+  
+Tiny Starcoder Generated Completion:
+ subtract(a, b):
+    return a - b
 
 def multiply(a, b):
     return a * b
 
-def divide(
-Middle (Actual Missing Code):
-a, b):
+def divide(a, b):
     if b == 0:
-        raise ValueError("Cannot divide by zero!")
-    return a / b
+        return 0
+    else:
+        return a
+Suffix (After Cursor):
+      raise ValueError("Cannot divide by zero!")
+ 
+Manual Review:
+The code was completed correctly, it could get more tokens so it would finish the divide function,
+the metrics are accurate
+Exact Match: 1
+CHRF Score: 73.7500
+ROUGE F-Score: 0.8000
+BLEU Score: 0.4561
+==================================================
+Example 13:
+Prefix (Before Cursor):
+ist(lst):
+    if len(lst) == 0:
+        return 0
+ 
+Middle (Actual Missing Code):
+   return sum(lst) / len(lst)
+
+def count_occ
+Tiny Starcoder Generated Completion:
+ist(lst):
+    if len(lst) == 0:
+        return 0
+    return sum(lst) / len(lst)
+
+def count_occurrences(lst):
+    if len(lst)
+Suffix (After Cursor):
+urrences(lst, value):
+    return lst.count(value)
+
+Manual Review:
+The code was completed correctly, more tokens would help finishing the function, the metrics aren't so accurate
+Exact Match: 1
+CHRF Score: 75.0383
+ROUGE F-Score: 0.5882
+BLEU Score: 0.2736
+==================================================
+Example 14:
+Prefix (Before Cursor):
+ower(base, exp):
+    return base ** exp
+
+def sort_
+Middle (Actual Missing Code):
+list(lst):
+    return sorted(lst)
+
+def remove_duplicates(lst):
+    return list(set(lst))
+
+def ca
+Tiny Starcoder Generated Completion:
+ower(base, exp):
+    return base ** exp
+
+def sort_list(lst):
+    return sorted(lst)
+
+def remove_duplicates(lst):
+    return list(set(lst))
+
+def caesar_sort(lst):
+    return sorted
+Suffix (After Cursor):
+pitalize_string(s):
+    return s.capitalize()
+
+def
+
+Manual Review:
+The code was completed correctly, the model added one unnecessary function as it missinterpreted the name
+of the function, the metrics are quite accurate
+Exact Match: 1
+CHRF Score: 85.3073
+ROUGE F-Score: 0.5000
+BLEU Score: 0.5168
+==================================================
+Example 15:
+Prefix (Before Cursor):
+(base, exp):
+    return base ** exp
+
+def sort_list
+Middle (Actual Missing Code):
+(lst):
+    return sorted(lst)
+
+def remov
+Tiny Starcoder Generated Completion:
+(base, exp):
+    return base ** exp
+
+def sort_list(lst):
+    return sorted(lst)
+
+def remov_duplicates(lst):
+    return [x for
+Suffix (After Cursor):
+e_duplicates(lst):
+    return list(set(lst))
+
+def 
+
+Manual Review:
+The code was complete almost perfectly if it would get more tokens, the metrics arent accurate
+Exact Match: 1
+CHRF Score: 68.3219
+ROUGE F-Score: 0.3529
+BLEU Score: 0.2764
+==================================================
+Example 16:
+Prefix (Before Cursor):
+
+def is_even(n):
+    return n % 2 == 0
+
+def is_odd
+Middle (Actual Missing Code):
+(n):
+    return n % 2 != 0
+
+def find_max(lst):
+    return m
+Tiny Starcoder Generated Completion:
+
+def is_even(n):
+    return n % 2 == 0
+
+def is_odd(n):
+    return n % 2 != 0
+
+def find_max(lst):
+    return mmax(lst)
+
+def find_min
+Suffix (After Cursor):
+ax(lst)
+
+def find_min(lst):
+    return min(lst)
+
+d
+
+Manual Review:
+The code was completed correctly, the metrics are almost accurate
+Exact Match: 1
+CHRF Score: 77.6250
+ROUGE F-Score: 0.6957
+BLEU Score: 0.4512
+==================================================
+Example 17:
+Prefix (Before Cursor):
+def add(a, b):
+    return 
+Middle (Actual Missing Code):
+a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
 
 def
 Tiny Starcoder Generated Completion:
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
 
 def multiply(a, b):
     return a * b
 
 def divide(a, b):
-    if b == 0:
-        raise ValueError("Cannot divide by zero!")
-    return a / b
-
-def power(a, b):
-    return a **
+    return a /
 Suffix (After Cursor):
- reverse_string(s):
-    return s[::-1]
+ divide(a, b):
+    if b == 0:
+        raise ValueE
 
-def is_eve
-
+Manual Review:
+The code was completed perfectly, the model could get more tokens to finish the function, the metrics are very accurate
 Exact Match: 1
-CHRF Score: 84.1528
-ROUGE F-Score: 0.8235
-BLEU Score: 0.4948
+CHRF Score: 87.9497
+ROUGE F-Score: 0.8696
+BLEU Score: 0.5821
 ==================================================
-Example 6:
+Example 18:
 Prefix (Before Cursor):
-a, b):
-    return a - b
+urn [item for sublist in lst for item in sublist]
 
-def multiply(a, b):
-    r
 Middle (Actual Missing Code):
-eturn a * b
 
-def divide(a, b):
-    if b == 0:
-        ra
+
+
+
+
+
+
+
+
 Tiny Starcoder Generated Completion:
-a, b):
-    return a - b
+urn [item for sublist in lst for item in sublist]
 
-def multiply(a, b):
-    return a * b
 
-def divide(a, b):
-    if b == 0:
-        ra = 0
-    else:
-        ra = a
+
+
+
+
+
+
+
 Suffix (After Cursor):
-ise ValueError("Cannot divide by zero!")
-    retur
 
+Manual Review:
+The splitting didn't happen correctly as it pasted blank spaces at the end of the file
 Exact Match: 1
-CHRF Score: 77.4040
-ROUGE F-Score: 0.7143
-BLEU Score: 0.3819
+CHRF Score: 0.0000
+ROUGE F-Score: 0.0000
+BLEU Score: 0.0000
+==================================================
+Example 19:
+Prefix (Before Cursor):
+(lst):
+    return min(lst)
+
+def sum_list(lst):
+   
+Middle (Actual Missing Code):
+ return sum(lst)
+
+def avg_list(lst):
+    if len(lst) == 0:
+        return 0
+
+Tiny Starcoder Generated Completion:
+(lst):
+    return min(lst)
+
+def sum_list(lst):
+    return sum(lst)
+
+def avg_list(lst):
+    if len(lst) == 0:
+        return 0
+
+def min_list(lst):
+    return
+Suffix (After Cursor):
+    return sum(lst) / len(lst)
+
+def count_occurren
+
+Manual Review:
+The last function of the completion wasn't completed correctly but the first functions were correct,
+the metrics are somewhat accurate
+Exact Match: 1
+CHRF Score: 80.4793
+ROUGE F-Score: 0.8182
+BLEU Score: 0.4693
+==================================================
+Example 20:
+Prefix (Before Cursor):
+ len(lst)
+
+def count_occurrences(lst, value):
+    
+Middle (Actual Missing Code):
+return lst.count(value)
+
+def square(n):
+    return n ** 2
+
+def cube(n):
+    ret
+Tiny Starcoder Generated Completion:
+ len(lst)
+
+def count_occurrences(lst, value):
+    return lst.count(value)
+
+def square(n):
+    return n ** 2
+
+def cube(n):
+    ret = 0
+    for i in range(n
+Suffix (After Cursor):
+urn n ** 3
+
+def power(base, exp):
+    return base 
+
+Manual Review:
+The first two functions were completed correctly but the last was missinterpreted and wrong,
+the metrics are somewhat accurate
+Exact Match: 1
+CHRF Score: 83.6974
+ROUGE F-Score: 0.6897
+BLEU Score: 0.5176
 ==================================================
