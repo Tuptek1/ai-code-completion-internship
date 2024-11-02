@@ -34,12 +34,10 @@ def split_code_at_cursor(code, num_examples=1):
     code_length = len(code)
 
     for _ in range(num_examples):
-        # Randomly define the position of the missing code
         cursor_position = random.randint(0, code_length - 1)
         middle_length = random.randint(MIN_MIDDLE_LENGTH, MAX_MIDDLE_LENGTH)
         middle_end = min(cursor_position + middle_length, code_length)
 
-        # Extract the prefix, middle (missing segment), and suffix
         prefix_start = max(0, cursor_position - PREFIX_LIMIT_CHARS)
         suffix_end = min(middle_end + SUFFIX_LIMIT_CHARS, code_length)
 
@@ -47,7 +45,6 @@ def split_code_at_cursor(code, num_examples=1):
         middle = code[cursor_position:middle_end]
         suffix = code[middle_end:suffix_end]
 
-        # Store example as a dictionary
         examples.append({'prefix': prefix, 'middle': middle, 'suffix': suffix})
     
     return examples
@@ -61,7 +58,7 @@ def process_directory(directory, num_samples=NUM_SAMPLES):
                 file_path = os.path.join(root, file_name)
                 code = read_file(file_path)
 
-                if code:  # Proceed only if the code is successfully read
+                if code:  
                     file_examples = split_code_at_cursor(code, num_examples=num_samples)
                     examples.extend(file_examples)
                     if len(examples) >= num_samples:
