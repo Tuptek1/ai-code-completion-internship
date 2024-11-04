@@ -1,5 +1,7 @@
 ## Usage
 
+Using a virtualenv is advised
+
 To start using the script:
 
 ```
